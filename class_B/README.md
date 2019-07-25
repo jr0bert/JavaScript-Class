@@ -12,3 +12,12 @@
 2. (19 pts) Complete the carousel functionality. Previous arrow should activate the previous slide, next should activate the next. Slide indicators should activate corresponding slides. Make sure interval is also reset when any of the slide controls is clicked.
 
 P.S. Create the separate files for assignments and homework. Create two branches, one for assignments and one for homework. Push your changes to the corresponding Github branches. Create pull requests to your master.
+
+
+
+
+
+# setTimeout(() => {
+const modal = document.querySelector (".modal");
+modal.style.display = "block";
+}, 5000);
